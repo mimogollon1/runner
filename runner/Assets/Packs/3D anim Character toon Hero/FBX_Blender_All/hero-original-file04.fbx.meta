@@ -1,0 +1,930 @@
+fileFormatVersion: 2
+guid: bc763b667e329cd4e87c79a322956d44
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ArmIK_L
+    100002: ArmIK_R
+    100004: Bone
+    100006: chest
+    100008: f_index_01_L_001
+    100010: f_index_01_R_001
+    100012: f_index_02_L_001
+    100014: f_index_02_R_001
+    100016: f_index_03_L_001
+    100018: f_index_03_R_001
+    100020: foot_L
+    100022: foot_R
+    100024: forearm_L
+    100026: forearm_R
+    100028: hand_L
+    100030: hand_R
+    100032: head
+    100034: hero
+    100036: //RootNode
+    100038: hips
+    100040: LegIK_L
+    100042: LegIK_R
+    100044: linkArm_L
+    100046: linkArm_R
+    100048: LinkLeg_L
+    100050: LinkLeg_R
+    100052: metarig
+    100054: neck
+    100056: shin_L
+    100058: shin_R
+    100060: shoulder_L
+    100062: shoulder_R
+    100064: spine
+    100066: thigh_L
+    100068: thigh_R
+    100070: thumb_01_L
+    100072: thumb_01_R
+    100074: thumb_02_L
+    100076: thumb_02_R
+    100078: thumb_03_L
+    100080: thumb_03_R
+    100082: toe_L
+    100084: toe_R
+    100086: upper_arm_L
+    100088: upper_arm_R
+    400000: ArmIK_L
+    400002: ArmIK_R
+    400004: Bone
+    400006: chest
+    400008: f_index_01_L_001
+    400010: f_index_01_R_001
+    400012: f_index_02_L_001
+    400014: f_index_02_R_001
+    400016: f_index_03_L_001
+    400018: f_index_03_R_001
+    400020: foot_L
+    400022: foot_R
+    400024: forearm_L
+    400026: forearm_R
+    400028: hand_L
+    400030: hand_R
+    400032: head
+    400034: hero
+    400036: //RootNode
+    400038: hips
+    400040: LegIK_L
+    400042: LegIK_R
+    400044: linkArm_L
+    400046: linkArm_R
+    400048: LinkLeg_L
+    400050: LinkLeg_R
+    400052: metarig
+    400054: neck
+    400056: shin_L
+    400058: shin_R
+    400060: shoulder_L
+    400062: shoulder_R
+    400064: spine
+    400066: thigh_L
+    400068: thigh_R
+    400070: thumb_01_L
+    400072: thumb_01_R
+    400074: thumb_02_L
+    400076: thumb_02_R
+    400078: thumb_03_L
+    400080: thumb_03_R
+    400082: toe_L
+    400084: toe_R
+    400086: upper_arm_L
+    400088: upper_arm_R
+    4300000: hero
+    7400000: Default Take
+    7400002: climb
+    7400004: climb-idle
+    7400006: crawl
+    7400008: failure
+    7400010: hurt
+    7400012: hurt_001
+    7400014: idle0
+    7400016: idle1
+    7400018: jump
+    7400020: jump-big
+    7400022: jump-Down
+    7400024: jump-end
+    7400026: jump-flying
+    7400028: jump-hang-point-top
+    7400030: jump-smale
+    7400032: jump-start
+    7400034: jump-Up
+    7400036: ladder-point-bottom
+    7400038: ladder-point-top
+    7400040: loss
+    7400042: pull
+    7400044: pull_001
+    7400046: push
+    7400048: push_001
+    7400050: run-end
+    7400052: run-jmp
+    7400054: run-start
+    7400056: run_001
+    7400058: run_002
+    7400060: run
+    7400062: sit-down
+    7400064: sit-down-end
+    7400066: sit-down-start
+    7400068: slide-ground-end
+    7400070: slide-ground-idle
+    7400072: slide-ground-start
+    7400074: vertical-rope-bangle-point-bottom
+    7400076: vertical-rope-bangle-point-top
+    7400078: vertical-rope-shake-left-bottom
+    7400080: vertical-rope-shake-left-top
+    7400082: vertical-rope-shake-right-bottom
+    7400084: vertical-rope-shake-right-top
+    7400086: vertical-rope-Up-point-bottom
+    7400088: vertical-rope-Up-point-top
+    7400090: victory
+    7400092: walk
+    9500000: //RootNode
+    13700000: hero
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hero__hero_map_png
+    second: {fileID: 2100000, guid: a807b0b33e6659a43acef77457be8105, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Default Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'climb' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'upper_arm_L' has scale animation that will be discarded.\n\t'forearm_L'
+      has scale animation that will be discarded.\n\t'upper_arm_R' has scale animation
+      that will be discarded.\n\t'forearm_R' has scale animation that will be discarded.\n\nClip
+      'crawl' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'upper_arm_L'
+      has scale animation that will be discarded.\n\t'forearm_L' has scale animation
+      that will be discarded.\n\t'upper_arm_R' has scale animation that will be discarded.\n\t'forearm_R'
+      has scale animation that will be discarded.\n\nClip 'failure' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'hurt' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'upper_arm_L' has scale animation that will be discarded.\n\t'forearm_L'
+      has scale animation that will be discarded.\n\t'upper_arm_R' has scale animation
+      that will be discarded.\n\t'forearm_R' has scale animation that will be discarded.\n\nClip
+      'hurt_001' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'upper_arm_L'
+      has scale animation that will be discarded.\n\t'forearm_L' has scale animation
+      that will be discarded.\n\t'upper_arm_R' has scale animation that will be discarded.\n\t'forearm_R'
+      has scale animation that will be discarded.\n\nClip 'idle0' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'idle1' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'upper_arm_L' has scale animation that will be discarded.\n\t'forearm_L'
+      has scale animation that will be discarded.\n\t'upper_arm_R' has scale animation
+      that will be discarded.\n\t'forearm_R' has scale animation that will be discarded.\n\nClip
+      'jump' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'upper_arm_L'
+      has scale animation that will be discarded.\n\t'forearm_L' has scale animation
+      that will be discarded.\n\t'upper_arm_R' has scale animation that will be discarded.\n\t'forearm_R'
+      has scale animation that will be discarded.\n\nClip 'jump-big' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'jump-Down' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'jump-end' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'jump-flying' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'jump-smale' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'jump-start' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'jump-Up' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'ladder-point-bottom' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'ladder-point-top' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'loss' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'upper_arm_L' has scale animation that will be discarded.\n\t'forearm_L'
+      has scale animation that will be discarded.\n\t'upper_arm_R' has scale animation
+      that will be discarded.\n\t'forearm_R' has scale animation that will be discarded.\n\nClip
+      'pull_001' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'upper_arm_L'
+      has scale animation that will be discarded.\n\t'forearm_L' has scale animation
+      that will be discarded.\n\t'upper_arm_R' has scale animation that will be discarded.\n\t'forearm_R'
+      has scale animation that will be discarded.\n\nClip 'push' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'push_001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'run-end' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'run-jmp' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'run-start' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'run_001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'run_002' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'run' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'upper_arm_L' has scale animation that will be discarded.\n\t'forearm_L'
+      has scale animation that will be discarded.\n\t'upper_arm_R' has scale animation
+      that will be discarded.\n\t'forearm_R' has scale animation that will be discarded.\n\nClip
+      'sit-down-end' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'upper_arm_L'
+      has scale animation that will be discarded.\n\t'forearm_L' has scale animation
+      that will be discarded.\n\t'upper_arm_R' has scale animation that will be discarded.\n\t'forearm_R'
+      has scale animation that will be discarded.\n\nClip 'sit-down-start' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'slide-ground-end' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'slide-ground-start' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'vertical-rope-bangle-point-bottom' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'vertical-rope-bangle-point-top' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'vertical-rope-shake-left-bottom' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'vertical-rope-shake-left-top' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'vertical-rope-shake-right-bottom' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'vertical-rope-shake-right-top' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'vertical-rope-Up-point-bottom' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'vertical-rope-Up-point-top' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation DOF
+      on avatar to improve retargeting quality.\n\t'upper_arm_L' has scale animation
+      that will be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'victory' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'upper_arm_L' has scale animation that will
+      be discarded.\n\t'forearm_L' has scale animation that will be discarded.\n\t'upper_arm_R'
+      has scale animation that will be discarded.\n\t'forearm_R' has scale animation
+      that will be discarded.\n\nClip 'walk' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'upper_arm_L' has scale animation that will be discarded.\n\t'forearm_L'
+      has scale animation that will be discarded.\n\t'upper_arm_R' has scale animation
+      that will be discarded.\n\t'forearm_R' has scale animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_01_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_02_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_03_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_01_L_001
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_02_L_001
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_03_L_001
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_01_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_02_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_03_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_01_R_001
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_02_R_001
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_03_R_001
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: hero-original-file04(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hero
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: metarig
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0.49992865, y: 0.49992877, z: 0.5000712, w: -0.50007135}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: ArmIK_L
+      parentName: 
+      position: {x: -0.33489376, y: -0.20094526, z: -0.8629183}
+      rotation: {x: 0.00000007549791, y: 1, z: -0.000000075497915, w: 0.00028522458}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: ArmIK_R
+      parentName: 
+      position: {x: -0.3088479, y: 0.16241199, z: -0.88247126}
+      rotation: {x: 0.00000007549791, y: 1, z: -0.000000075497915, w: 0.00028522458}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: LegIK_L
+      parentName: 
+      position: {x: 0.0346224, y: -0.122969806, z: -0.16532402}
+      rotation: {x: -0.007086236, y: -0.028033437, z: 0.9994574, w: -0.015773235}
+      scale: {x: 1, y: 1.0002588, z: 1.0000584}
+    - name: LegIK_R
+      parentName: 
+      position: {x: 0.09499892, y: 0.12315147, z: -0.3096937}
+      rotation: {x: 0.5213444, y: 0.03202363, z: 0.85274434, w: -0.0012562453}
+      scale: {x: 1.0000424, y: 1.0002625, z: 1.0000172}
+    - name: linkArm_L
+      parentName: 
+      position: {x: 0.5099944, y: -0.5452382, z: -0.7978607}
+      rotation: {x: -0.00000034881896, y: -0.7072077, z: -0.00000009686346, w: 0.70700586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: linkArm_R
+      parentName: 
+      position: {x: 0.515327, y: 0.3970101, z: -0.71614504}
+      rotation: {x: -0.00000034881896, y: -0.7072077, z: -0.00000009686346, w: 0.70700586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LinkLeg_L
+      parentName: 
+      position: {x: -1.3252586, y: -0.35789582, z: -0.34883422}
+      rotation: {x: -0.000000019284444, y: -0.70720756, z: 0.00000016985283, w: 0.707006}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: LinkLeg_R
+      parentName: 
+      position: {x: -1.310394, y: 0.31531414, z: -0.36531776}
+      rotation: {x: -0.000000019284444, y: -0.70720756, z: 0.00000016985283, w: 0.707006}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: hips
+      parentName: 
+      position: {x: 0.7373257, y: 0.00000010071189, z: 0.033840504}
+      rotation: {x: 0.0000029357313, y: -0.99686587, z: -0.00003788992, w: 0.07911069}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+    - name: spine
+      parentName: 
+      position: {x: -0.18897046, y: 0.000000014266886, z: 0.0000000335276}
+      rotation: {x: -0.0000000745058, y: -0.118174374, z: 0, w: 0.9929929}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000001}
+    - name: chest
+      parentName: 
+      position: {x: -0.15356524, y: 0.0000000115692265, z: 0.00000001353635}
+      rotation: {x: 0.000000059604638, y: 0.07414379, z: -0.000000029802319, w: 0.9972476}
+      scale: {x: 1.000058, y: 1.0285147, z: 1.0801175}
+    - name: neck
+      parentName: 
+      position: {x: -0.23609267, y: 0.000000018102583, z: -0.000000002122874}
+      rotation: {x: 0.000000119209275, y: 0.05625757, z: 0.000000029802319, w: 0.9984163}
+      scale: {x: 1.000074, y: 1, z: 1.0000738}
+    - name: head
+      parentName: 
+      position: {x: -0.047108613, y: 0.0000000034488037, z: 5.64341e-10}
+      rotation: {x: -0.000000014901158, y: -0.035206385, z: 0, w: 0.9993801}
+      scale: {x: 1.0168427, y: 1.000002, z: 0.98427653}
+    - name: shoulder_L
+      parentName: 
+      position: {x: -0.196764, y: -0.014022549, z: 0.06589285}
+      rotation: {x: -0.47230834, y: -0.54801595, z: 0.3952896, w: 0.5659943}
+      scale: {x: 0.9977781, y: 1.0026517, z: 1.0003439}
+    - name: upper_arm_L
+      parentName: 
+      position: {x: -0.17637038, y: 0.010000533, z: -0.021304317}
+      rotation: {x: 0.73492384, y: 0.036475837, z: 0.13816686, w: 0.66292256}
+      scale: {x: 1.0070728, y: 1.0320996, z: 0.9591298}
+    - name: forearm_L
+      parentName: 
+      position: {x: -0.2353246, y: 0.00000001862645, z: -0.000000011175871}
+      rotation: {x: 0.050450962, y: 0.024390291, z: -0.039096244, w: 0.9976629}
+      scale: {x: 1.0078335, y: 1.019008, z: 0.9864147}
+    - name: hand_L
+      parentName: 
+      position: {x: -0.22939825, y: 0.00000005235779, z: -0.000000052852556}
+      rotation: {x: 0.6971575, y: 0.081707686, z: 0.12866697, w: 0.7005285}
+      scale: {x: 1.0126808, y: 1.0126344, z: 0.97521365}
+    - name: thumb_01_L
+      parentName: 
+      position: {x: -0.044187404, y: 0.00927458, z: 0.020983808}
+      rotation: {x: 0.6034936, y: -0.3399154, z: -0.23420326, w: 0.68220377}
+      scale: {x: 0.9996643, y: 0.99974453, z: 1.0006013}
+    - name: thumb_02_L
+      parentName: 
+      position: {x: -0.06364992, y: 0.000000029802322, z: 0.000000011175871}
+      rotation: {x: -0.03829347, y: -0.033689164, z: 0.0034661507, w: -0.9986925}
+      scale: {x: 1.0026109, y: 1.0002605, z: 0.9971343}
+    - name: thumb_03_L
+      parentName: 
+      position: {x: -0.048977956, y: 0.000000014901161, z: -0.0000000018626449}
+      rotation: {x: -0.00621031, y: 0.17354593, z: -0.050756466, w: 0.9834973}
+      scale: {x: 1.0044825, y: 0.99922746, z: 0.99629235}
+    - name: f_index_01_L_001
+      parentName: 
+      position: {x: -0.13102621, y: 0.03452663, z: -0.025977127}
+      rotation: {x: -0.016765555, y: -0.062041275, z: 0.0010102311, w: 0.9979323}
+      scale: {x: 1.0079781, y: 1.0002888, z: 0.9917677}
+    - name: f_index_02_L_001
+      parentName: 
+      position: {x: -0.055938184, y: 0.000000006519258, z: 0.000000007916242}
+      rotation: {x: -0.9991055, y: 0.0006604004, z: 0.042167805, w: 0.0031184445}
+      scale: {x: 1.0004092, y: 0.99989283, z: 0.9997009}
+    - name: f_index_03_L_001
+      parentName: 
+      position: {x: -0.029703535, y: -0.000000029773217, z: -0.000000014901161}
+      rotation: {x: 0.98879534, y: 0.0012403815, z: 0.14889032, w: 0.010677522}
+      scale: {x: 1.0011164, y: 1.0002903, z: 0.9985926}
+    - name: shoulder_R
+      parentName: 
+      position: {x: -0.19676404, y: 0.014022579, z: 0.065892845}
+      rotation: {x: -0.47239128, y: 0.54795766, z: 0.3953351, w: -0.56594986}
+      scale: {x: 0.9971088, y: 1.0032144, z: 1.0004377}
+    - name: upper_arm_R
+      parentName: 
+      position: {x: -0.17637037, y: -0.010000482, z: -0.021303974}
+      rotation: {x: -0.73492086, y: 0.03650276, z: -0.13799672, w: 0.66296}
+      scale: {x: 0.99711955, y: 1.0340701, z: 0.96166813}
+    - name: forearm_R
+      parentName: 
+      position: {x: -0.23532452, y: 0.000000048428774, z: -0.000000014901161}
+      rotation: {x: -0.050399747, y: 0.021668397, z: 0.03754093, w: 0.9977881}
+      scale: {x: 1.0268431, y: 1.0322969, z: 0.9712114}
+    - name: hand_R
+      parentName: 
+      position: {x: -0.22939828, y: 0.000000024214387, z: -0.000000011175871}
+      rotation: {x: 0.69715756, y: -0.081707805, z: 0.12866704, w: -0.7005284}
+      scale: {x: 1.0210922, y: 1.0132799, z: 0.96688795}
+    - name: thumb_01_R
+      parentName: 
+      position: {x: -0.044187438, y: -0.009274647, z: 0.020983815}
+      rotation: {x: -0.60237414, y: -0.34563124, z: 0.23741183, w: 0.6792055}
+      scale: {x: 0.98247826, y: 0.9994738, z: 1.0185446}
+    - name: thumb_02_R
+      parentName: 
+      position: {x: -0.063649766, y: 0.000000014901161, z: 0.000000029802322}
+      rotation: {x: -0.038531955, y: 0.029358234, z: 0.0023021088, w: 0.99882334}
+      scale: {x: 0.99989533, y: 1.0020493, z: 0.9982717}
+    - name: thumb_03_R
+      parentName: 
+      position: {x: -0.048977986, y: -0.000000052154064, z: 0.000000063329935}
+      rotation: {x: 0.0062103854, y: 0.17354603, z: 0.050756756, w: 0.9834974}
+      scale: {x: 0.9912316, y: 0.99860585, z: 1.0101476}
+    - name: f_index_01_R_001
+      parentName: 
+      position: {x: -0.13102624, y: -0.034526642, z: -0.025977133}
+      rotation: {x: -0.017826697, y: 0.062225047, z: 0.000064484746, w: -0.997903}
+      scale: {x: 1.0058874, y: 0.9992194, z: 0.99494934}
+    - name: f_index_02_R_001
+      parentName: 
+      position: {x: -0.05593822, y: -0.000000014901161, z: 0.0000000037252899}
+      rotation: {x: 0.9990591, y: 0.000876305, z: -0.043269664, w: 0.0028369406}
+      scale: {x: 1.0036837, y: 1.0000352, z: 0.9962806}
+    - name: f_index_03_R_001
+      parentName: 
+      position: {x: -0.029703572, y: 0, z: 0.000000029802322}
+      rotation: {x: -0.9887954, y: 0.0012404145, z: -0.14889015, w: 0.010677393}
+      scale: {x: 1.0027914, y: 0.99996555, z: 0.99724346}
+    - name: thigh_L
+      parentName: 
+      position: {x: -0.04743939, y: -0.10364802, z: 0.026467059}
+      rotation: {x: 0.033477377, y: 0.98778987, z: 0.0030244882, w: 0.15212262}
+      scale: {x: 1.0000024, y: 1.0000015, z: 1.0000061}
+    - name: shin_L
+      parentName: 
+      position: {x: -0.26568386, y: 0.000000018270839, z: -0.0000000018626449}
+      rotation: {x: -0.008220865, y: -0.16613379, z: -0.024174567, w: -0.9857726}
+      scale: {x: 1.0000024, y: 1.0000017, z: 0.9999998}
+    - name: foot_L
+      parentName: 
+      position: {x: -0.34912235, y: 0.000000040512532, z: -0.0000000018626449}
+      rotation: {x: 0.06643813, y: 0.49960715, z: 0.005319863, w: -0.8636842}
+      scale: {x: 1.0000043, y: 0.9999993, z: 0.9999995}
+    - name: toe_L
+      parentName: 
+      position: {x: -0.2401758, y: 0.00000002264278, z: -0.000000009313225}
+      rotation: {x: -0.9390521, y: -0.0055524404, z: -0.3420288, w: -0.03415614}
+      scale: {x: 0.9999989, y: 1, z: 1.0000007}
+    - name: thigh_R
+      parentName: 
+      position: {x: -0.047439367, y: 0.10364803, z: 0.026467035}
+      rotation: {x: -0.033477243, y: 0.9877899, z: -0.0030245776, w: 0.15212259}
+      scale: {x: 1.000005, y: 1.0000002, z: 1.0000051}
+    - name: shin_R
+      parentName: 
+      position: {x: -0.2656839, y: 0.000000006519258, z: 0.0000000018626449}
+      rotation: {x: 0.008220939, y: -0.16613355, z: 0.024174655, w: -0.9857726}
+      scale: {x: 0.99999535, y: 1.0000006, z: 1.0000039}
+    - name: foot_R
+      parentName: 
+      position: {x: -0.3491224, y: 0.000000016996635, z: -0.000000050291415}
+      rotation: {x: -0.06643809, y: 0.49960703, z: -0.0053199534, w: -0.8636843}
+      scale: {x: 1.0000004, y: 0.99999976, z: 1.0000015}
+    - name: toe_R
+      parentName: 
+      position: {x: -0.24017587, y: 0.0000000372529, z: -0.000000013038516}
+      rotation: {x: -0.93905216, y: 0.0055529173, z: -0.34202877, w: 0.034155946}
+      scale: {x: 0.99999475, y: 1.0000004, z: 1.0000052}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
